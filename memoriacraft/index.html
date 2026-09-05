@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memoriacraft - Katalog</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase.js"></script>
+  
+</head>
+<body>
+  <div class="container">
+  <header>
+  <!-- Masukkan file gambar logo kamu di folder yang sama dan sesuaikan namanya -->
+  <img src="logo.png" alt="MemoriaCraft Logo" style="width: 100px; max-width: 100%; height: auto; margin-bottom: 12px;">
+  <h1>MemoriaCraft</h1>
+  <p>Where Moments Become Forever</p>
+</header>
+
+    <div id="product-list" class="grid">
+      <p>Memuat produk...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    loadCatalog();
+  </script>
+</body>
+</html>
